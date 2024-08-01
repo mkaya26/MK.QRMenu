@@ -1,9 +1,8 @@
 ﻿using FluentValidation;
-using MK.QRMenu.Domain.Entities;
 
 namespace MK.QRMenu.Application.Features.Kampanyalar.CreateKampanya
 {
-    public sealed class CreateKampanyaCommandValidator : AbstractValidator<Kampanya>
+    public sealed class CreateKampanyaCommandValidator : AbstractValidator<CreateKampanyaCommand>
     {
         public CreateKampanyaCommandValidator()
         {

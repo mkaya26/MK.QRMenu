@@ -13,6 +13,7 @@ namespace MK.QRMenu.Infrastructure.Context
         }
 
         public DbSet<Kampanya> Kampanyalar { get; set; }
+        public DbSet<Kategori> Kategoriler { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.HasDefaultSchema("MENU");
